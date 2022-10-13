@@ -1,0 +1,13 @@
+nav a {
+    height: 100px;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    transition: 400ms;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    box-shadow: 7px 3px 20px #7c7c7c;
+    color: #fff;
+  }
