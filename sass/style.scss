@@ -9,6 +9,42 @@
 
 }
 
+.carousel-control-prev {
+    background-color: black;
+}
+
+.carousel-control-next {
+    background-color: black;
+    
+
+}
+
+.carru{
+    width: 70%;
+}
+
+.formsss{
+    display: flex;
+    justify-content:center;
+    margin: 5%;
+}
+
+.formulario{
+    margin-top: 10%;
+}
+
+.text__area{
+    width: 100%;
+}
+
+.input__personal{
+    width: 25%;
+}
+
+.text__contact{
+    padding: 7px;
+}
+
 .contenido__alojarse {
     grid-area: contenido__alojarse;
 }
@@ -27,19 +63,6 @@ footer {
 
 
 
-ul {
-    list-style-type: none;
-
-}
-
-
-
-
-.form {
-    margin-top: 146px;
-    margin-bottom: 146px;
-    margin-left: 120px;
-}
 
 
 .alojarse {
@@ -159,18 +182,10 @@ img {
 /*Tablet Ipad*/
 @media (min-width:600px) {
 
-    ul {
-        list-style-type: none;
-    }
 
-    li {
-        display: inline-block;
-        position: sticky;
-        color: #fff;
-        padding: 10px;
-        margin: 10px 10px 0px 10px;
+    .carousel__slide{
+        margin-left: 100px;
     }
-
     .contenedor.isla1 {
         background-color: #12203E;
         color: #fff;
@@ -267,6 +282,9 @@ img {
         display: inline-block;
     }
 
+    .carousel__slide{
+        margin-left: 100px;
+    }
     /*Para el index*/
     .contenedor.isla1 {
         background-color: #12203E;
